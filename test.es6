@@ -12,6 +12,6 @@ const compose1 = compose(add1),
 
 it('fj-compose', () => {
   assert.equal(compose1(0),1);
-  assert.equal(compose2(1),4);
-  assert.equal(compose3(1),16);
+  assert.equal(compose2(1),3);
+  assert.equal(compose3(1),3);
 });

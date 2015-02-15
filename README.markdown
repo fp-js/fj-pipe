@@ -22,8 +22,8 @@ compose3 = compose(add1, mult2, square);
 
 compose1(0); // 1
 
-compose2(1); // 4
+compose2(1); // 3
 
-compose3(1); // 16
+compose3(1); // 3
 
 ```
