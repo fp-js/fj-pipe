@@ -1,6 +1,6 @@
 {
-  "name": "fj-compose",
-  "version": "1.0.0",
+  "name": "fj-pipe",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fp-js/fj-compose.git"
+    "url": "https://github.com/fp-js/fj-pipe.git"
   },
   "keywords": [
     "fp-dom",
@@ -21,9 +21,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fp-js/fj-compose/issues"
+    "url": "https://github.com/fp-js/fj-pipe/issues"
   },
-  "homepage": "https://github.com/fp-js/fj-compose",
+  "homepage": "https://github.com/fp-js/fj-pipe",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-6to5": "^3.0.0",
