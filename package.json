@@ -1,6 +1,6 @@
 {
   "name": "fj-pipe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pipe functions, FP style.",
   "main": "index.js",
   "scripts": {
