@@ -1,6 +1,6 @@
 "use strict";
 
-var compose = exports.compose = function () {
+var pipe = exports.pipe = function () {
   for (var _len = arguments.length, fns = Array(_len), _key = 0; _key < _len; _key++) {
     fns[_key] = arguments[_key];
   }

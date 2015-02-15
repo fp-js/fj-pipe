@@ -1,7 +1,7 @@
 # fj-pipe
 
 [![Build Status](https://travis-ci.org/fp-js/fj-pipe.svg)](https://travis-ci.org/fp-js/fj-pipe) [![npm version](https://badge.fury.io/js/fj-pipe.svg)](http://badge.fury.io/js/fj-pipe)
-> Compose with ease.
+> pipe with ease.
 
 ## Installation
 
@@ -27,4 +27,3 @@ pipe2(1); // 4
 pipe3(1); // 16
 
 ```
-
