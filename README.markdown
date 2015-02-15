@@ -21,9 +21,12 @@ pipe2 = pipe(add1, mult2),
 pipe3 = pipe(add1, mult2, square);
 
 pipe1(0); // 1
+// === add1(0)
 
 pipe2(1); // 4
+// === mult2(add1(0))
 
 pipe3(1); // 16
+// === square(mult2(add1(0)))
 
 ```

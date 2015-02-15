@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { pipe } from './';
+import pipe from './';
 
 const add1 = (x) => x + 1,
   mult2 = (x) => x * 2,
@@ -12,6 +12,6 @@ const pipe1 = pipe(add1),
 
 it('fj-pipe', () => {
   assert.equal(pipe1(0),1);
-  assert.equal(pipe2(1),3);
-  assert.equal(pipe3(1),3);
+  assert.equal(pipe2(1),4);
+  assert.equal(pipe3(1),16);
 });
