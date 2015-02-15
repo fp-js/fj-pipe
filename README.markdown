@@ -1,29 +1,30 @@
-# fj-compose
+# fj-pipe
 
-[![Build Status](https://travis-ci.org/fp-js/fj-compose.svg)](https://travis-ci.org/fp-js/fj-compose) [![npm version](https://badge.fury.io/js/fj-compose.svg)](http://badge.fury.io/js/fj-compose)
+[![Build Status](https://travis-ci.org/fp-js/fj-pipe.svg)](https://travis-ci.org/fp-js/fj-pipe) [![npm version](https://badge.fury.io/js/fj-pipe.svg)](http://badge.fury.io/js/fj-pipe)
 > Compose with ease.
 
 ## Installation
 
-`npm install fj-compose --save`
+`npm install fj-pipe --save`
 
 ## Usage
 
 ```js
-var compose = require('fj-compose');
+var pipe = require('fj-pipe');
 
 const add1 = (x) => x + 1,
 mult2 = (x) => x * 2,
 square = (x) => x * x;
 
-const compose1 = compose(add1),
-compose2 = compose(add1, mult2),
-compose3 = compose(add1, mult2, square);
+const pipe1 = pipe(add1),
+pipe2 = pipe(add1, mult2),
+pipe3 = pipe(add1, mult2, square);
 
-compose1(0); // 1
+pipe1(0); // 1
 
-compose2(1); // 3
+pipe2(1); // 4
 
-compose3(1); // 3
+pipe3(1); // 16
 
 ```
+
